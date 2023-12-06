@@ -92,8 +92,10 @@
         android:id="@+id/rv_View"
         android:layout_width="match_parent"
         android:layout_height="354dp"
+        android:layout_marginBottom="52dp"
+        android:visibility="visible"
         app:layout_constraintBottom_toBottomOf="parent"
-        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteX="0dp"
         tools:listitem="@layout/product_name" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
